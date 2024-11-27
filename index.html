@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CHAMANDO O CSS EXTERNO-->
+    <link rel="stylesheet" href="./src/css/estilo.css">   
+     <title>Projeto Aula 10</title>
+</head>
+<body>
+    <header>
+        <h1>City</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portifolio">Portifólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="mudarcor">
+            <input type="button" class="cor" onclick="trocar('#87CEFA')"/>
+            <input type="button"class="cor" onclick="trocar('#00FA9A')"/>
+            <input type="button" class="cor" onclick="trocar('#DA70D6')"/>
+
+        </div>
+    </header>
+
+    <section class="container">
+        <img id="image"/>
+        <div class="produto" id="home">
+            <h1 id="titulo">LOJA CITY</h1>
+          
+        </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+        <h1>Sobre</h1>
+        <p>Conheça os novos produtos da Loja</p>
+        <a href="" class="btnSobre">Conheça mais</a>
+    </section>
+
+    <section class="portifolio" id="portifolio">
+
+        <h1 class="title">CARROS EM DESTAQUES</h1>
+
+        <div class="card-section">
+            <div class="card">
+                <img src="./src/assets/img1.jpg" alt="">
+                <div class="card-content">
+                    <span class="card-title">PRODUTO 1</span>
+                    <span class="card-ver-mais">Ver mais</span>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./src/assets/img2.jpg"alt="">
+                <div class="card-content">
+                    <span class="card-title">PRODUTO 2</span>
+                    <span class="card-ver-mais">Ver mais</span>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./src/assets/img3.jpg" alt="">
+                <div class="card-content">
+                    <span class="card-title">PRODUTO 3 </span>
+                    <span class="card-ver-mais">Ver mais</span>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <h1>Contato</h1>
+        <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.322007889502!2d-46.73133692484355!3d-23.520918078827687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8c1d3806777%3A0x8d03885c01c45d8a!2sR.%20Guaip%C3%A1%2C%20678%20-%20Vila%20Leopoldina%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005089-000!5e0!3m2!1spt-BR!2sbr!4v1732700323032!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      
+    </section>
+    
+    <footer>
+        <div>
+            <h1>City Cars</h1>
+            <h6>@2024</h6>
+        </div>
+        <div class="listFooter">
+            <h2>Atendimento</h2>
+            <ul>
+                <li><a href="">Fale conosco</a></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Locais </a></li>
+            </ul>
+        </div>
+    
+        <div class="listFooter">
+            <h2>Informações</h2>
+            <ul>
+                <li><a href="">Perguntas frequentes</a></li>
+                <li><a href="">privacidade</a></li>
+                <li><a href="">Termos e condições</a></li>
+            </ul>   
+        </div>
+    
+        <div class="listFooter">
+            <h2>Trabalhe Conosco</h2>
+            <ul>
+                <li><a href="">Currículo</a></li>
+                <li><a href="">Parcerias</a></li>
+            </ul>
+        </div>
+    
+        <div class="redesSociais">
+            <div>
+                <img src="./src/assets/rede1.png" alt="" title="">
+            </div>
+            <div>
+                <img src="./src/assets/rede2.png" alt="" title="">
+            </div>
+            <div>
+                <img src="./src/assets/rede3.png" alt="" title="">
+            </div>
+        </div>
+        
+    </footer>
+    
+
+    <!--CHAMANDO O JAVASCRIPT EXTERNO-->
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
